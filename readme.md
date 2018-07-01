@@ -139,5 +139,3 @@ The PlayCanvas toolkit includes a **scene loader** tool that is ported from the 
 
 * PlayCanvas **GLTF Scene File Importer** With MetaData (TS)
 
-
-.
