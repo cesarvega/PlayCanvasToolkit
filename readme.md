@@ -24,7 +24,7 @@ Build project library project files
 
 # Require Script Libraries
 
-The PlayCanvas toolkit provides an extension method called **require** to the **pc.Application** prototype to load required script library dependencies. Including your component script backing classes. The method takes a string or a string array of script libraries urls. The method will **sequentially** load all required script libraries and execute the specfied callback function on complete.
+The PlayCanvas toolkit provides an extension method called **require** to the **pc.Application** prototype to load required script library dependencies. Including your component script backing classes. The method takes a string or a string array of script library urls. The method will **sequentially** load all required script libraries and execute the specfied callback function on complete.
 
     var canvas = document.getElementById("application");
     var libs = ["test/TestRotator.js"];
