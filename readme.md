@@ -52,7 +52,7 @@ To create **TypeScript** component classes:
         }
     }
 
-The PlayCanvas toolkit includes a **CanvasScript** base class allows easy TypeScript subclassing of PlayCanvas script classes
+The PlayCanvas toolkit includes a **CanvasScript** base class to allow easy TypeScript subclassing of PlayCanvas script components
 
     /**
     * Base class to be extended when implementing PlayCanvas ScriptType classes
