@@ -1,6 +1,6 @@
-The [PlayCanvas Engine Only](https://github.com/playcanvas/engine) toolkit enables modern **Unity-Style** game development using the Unity game editor and open source WebGL, WebVR, WebAudio and GLTF technologies to export scene content for the PlayCanvas game engine.
+The [PlayCanvas Engine Only](https://github.com/playcanvas/engine) toolkit enables modern **Unity-Style** game development using the Unity game editor and open source **WebGL**, **WebVR**, **WebAudio** and **GLTF** technologies to export scene content for the PlayCanvas game engine.
 
-Toolkit Development Files:
+Toolkit Distribution Files:
 
 * winrt.d.ts - Windows Runtime Xbox Live Declarations
 
@@ -24,7 +24,7 @@ Build project library project files
 
 # Require Script Libraries
 
-The PlayCanvas toolkit provides an extension method called **require** to the pc.Application prototype to load required script library dependencies. Including your component script backing classes. The method takes a string or a string array of script libraries urls. The method will **sequentially** load all required script libraries and execute the specfied callback function on complete.
+The PlayCanvas toolkit provides an extension method called **require** to the **pc.Application** prototype to load required script library dependencies. Including your component script backing classes. The method takes a string or a string array of script libraries urls. The method will **sequentially** load all required script libraries and execute the specfied callback function on complete.
 
     var canvas = document.getElementById("application");
     var libs = ["test/TestRotator.js"];
@@ -36,14 +36,14 @@ The PlayCanvas toolkit provides an extension method called **require** to the pc
 
 # Toolkit Script Classes 
 
-To create JavaScript component classes:
+To create **JavaScript** component classes:
 
     var TestRotator = pc.createScript("TestRotator");
     TestRotator.prototype.update = function (delta) {
         this.entity.rotate(0, 10 * delta, 0);
     };
 
-To create TypeScript component classes:
+To create **TypeScript** component classes:
 
     @createScript()
     class TestRotator extends CanvasScript implements ScriptType {
