@@ -10,6 +10,20 @@ Toolkit Development Files:
 
 * playcanvas.toolkit.d.ts - PlayCanvas Game Development Type Declarations
 
+
+# Build Toolkit Package
+
+Execute node package manager installer to initialize project
+
+    npm install
+
+Build project library project files
+
+    gulp
+
+
+# Require Script Libraries
+
 The PlayCanvas toolkit provides an extension method called **require** to the pc.Application prototype to load required script library dependencies. Including your component script backing classes. The method takes a string or a string array of script libraries urls. The method will **sequentially** load all required script libraries and execute the specfied callback function on complete.
 
     var canvas = document.getElementById("application");
