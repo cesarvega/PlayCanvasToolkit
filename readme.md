@@ -1,4 +1,4 @@
-The [PlayCanvas Engine Only](https://github.com/playcanvas/engine) toolkit enables modern **Unity-Style** game development using the Unity game editor and open source WebGL, WebVR,WebAudio and GLTF technologies to export scene content for the PlayCanvas game engine.
+The [PlayCanvas Engine Only](https://github.com/playcanvas/engine) toolkit enables modern **Unity-Style** game development using the Unity game editor and open source WebGL, WebVR, WebAudio and GLTF technologies to export scene content for the PlayCanvas game engine.
 
 Toolkit Development Files:
 
@@ -46,12 +46,12 @@ To create JavaScript component classes:
 
 To create TypeScript component classes:
 
-@createScript()
-class TestRotator extends CanvasScript implements ScriptType {
-    protected update(delta: number) {
-        this.entity.rotate(0, 10 * delta, 0);
+    @createScript()
+    class TestRotator extends CanvasScript implements ScriptType {
+        protected update(delta: number) {
+            this.entity.rotate(0, 10 * delta, 0);
+        }
     }
-}
 
 The PlayCanvas toolkit includes a **CanvasScript** base class allows easy TypeScript subclassing of PlayCanvas script classes
 
