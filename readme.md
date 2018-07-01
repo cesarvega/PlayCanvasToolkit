@@ -11,7 +11,7 @@ Toolkit Distribution Files:
 * playcanvas.toolkit.d.ts - PlayCanvas Game Development Type Declarations
 
 
-# Build Toolkit Package
+# Custom Toolkit Rebuild
 
 Execute node package manager installer to initialize project
 
@@ -131,5 +131,13 @@ The PlayCanvas toolkit includes a **create script** tool that is ported from the
 # Transmission File Format
 
 The PlayCanvas toolkit includes a **scene loader** tool that is ported from the PlayCanvas [GLTF Transmission Format](https://github.com/playcanvas/playcanvas-gltf) to allow for scene and entity metadata deserialztion. 
+
+
+# Still Under Development
+
+* Unity **GLTF Scene File Exporter** With MetaData (C#)
+
+* PlayCanvas **GLTF Scene File Importer** With MetaData (TS)
+
 
 .
