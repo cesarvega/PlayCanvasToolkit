@@ -30,7 +30,6 @@ The PlayCanvas toolkit provides an extension method called **require** to the pc
     var libs = ["test/TestRotator.js"];
     var app = new pc.Application(canvas, { });
     app.require(libs, function() {
-        // start engine only application
         app.start();
     }
 
